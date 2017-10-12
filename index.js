@@ -1,7 +1,7 @@
 var axios = require("axios");
 
-module.exports = function(url, adds = {}, axiosOpts = {}) {
-  return function(req, res, func) {
+module.exports = function(func, url, adds = {}, axiosOpts = {}) {
+  return function(req, res) {
     var promise, tmp;
     try {
       tmp = func(req.body);

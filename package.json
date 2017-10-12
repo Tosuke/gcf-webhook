@@ -1,7 +1,7 @@
 {
   "name": "gcf-webhook",
   "version": "1.0.0",
-  "description": "easy and powerfun webhook 'middleware'",
+  "description": "easy and powerful webhook 'middleware'",
   "main": "index.js",
   "repository": "ssh://git@github.com/Tosuke/gcf-webhook.git",
   "author": "Tosuke <tasukeprg@gmail.com>",
